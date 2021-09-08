@@ -73,16 +73,17 @@ xaringanExtra::use_panelset()
 
 .panelset[
 
-.panel[.panel-name[Data Analyst]
-.pull-left[
-<img src="https://github.com/Observatorio-de-Redes/politicosentwitter/raw/main/ShinyApp/www/shiny%20contest/img%20def.png" width="60%" />
+.panel[.panel-name[Data Analyst I]
+
+<img src="https://raw.githubusercontent.com/guadag12/bio-talk/main/img/pichetto-sola2-.png" width="90%" />
 ]
-.pull-right[
-<img src="https://github.com/Observatorio-de-Redes/politicosentwitter/raw/main/ShinyApp/www/shiny%20contest/img%20def.png" width="60%" />
+
+.panel[.panel-name[Data Analyst II]
+<img src="https://github.com/guadag12/bio-talk/raw/main/img/badata.png" width="90%" />
 </br>
 [`r fontawesome::fa("twitter")` @BAGobAbierto](https://twitter.com/BAGobAbierto)
 ]
-]
+
 
 .panel[.panel-name[Asesora de Innovación Pública]
 <img src="https://pbs.twimg.com/profile_banners/1030104137764098048/1561128435/1500x500" width="60%" />
@@ -92,7 +93,7 @@ xaringanExtra::use_panelset()
 
 .panel[.panel-name[Data Scientist]
 
-<img src="https://ichi.pro/assets/images/max/724/1*km81hu0_UaMm1aTz3VHJog.png" width="25%" />
+<img src="https://ichi.pro/assets/images/max/724/1*km81hu0_UaMm1aTz3VHJog.png" width="55%" />
 
 ]
 
