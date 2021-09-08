@@ -1,0 +1,220 @@
+---
+title: "Políticos en Twitter 🐦📦"
+author: 
+  - "Guada Gonzalez"
+output:
+  xaringan::moon_reader:
+    seal: false
+    css: "xaringan-themer.css"
+    nature:
+      navigation: 
+        scroll: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+library(xaringanExtra)
+style_duo_accent(
+  primary_color = "#266098",
+  secondary_color = "#c7c7c7",
+  inverse_header_color = "#001f3d",
+    header_font_google = google_font("Roboto"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono"),
+  link_color = "#070a4a",  
+    link_decoration = "none"
+)
+```
+
+class: title-slide, center, middle, inverse
+
+background-image: url(https://github.com/Observatorio-de-Redes/politicosentwitter/raw/main/ShinyApp/www/img_net/Animation_fdt.gif)
+background-position: center
+background-size: 150px 160px
+# `r rmarkdown::metadata$title`
+######[`r fontawesome::fa("twitter")` @guadag12](https://twitter.com/guadag12)
+
+---
+class:  inverse, middle, center
+
+## GUADA GONZALEZ
+
+<img src="https://github.com/guadag12/talk-cienciassoccomputacionales/raw/main/img/img-guada.png" width="15%" />
+
+### Politóloga & Data Scientist
+
+#### Coordinadora en [GICP Observatorio de Redes](https://twitter.com/O_de_R)
+
+#### Investigadora [ILCSS](https://twitter.com/ilcss_umd)
+
+#### Profesora en [Laboratorio de Políticas Públicas](https://twitter.com/LABPoliticasUBA)
+---
+
+class: middle, center
+
+### Proyectos
+
+```{r xaringan-panelset, echo=FALSE}
+xaringanExtra::use_panelset()
+```
+
+.panelset[
+
+.panel[.panel-name[Data Analyst]
+.pull-left[
+<img src="https://github.com/Observatorio-de-Redes/politicosentwitter/raw/main/ShinyApp/www/shiny%20contest/img%20def.png" width="60%" />
+]
+.pull-right[
+<img src="https://github.com/Observatorio-de-Redes/politicosentwitter/raw/main/ShinyApp/www/shiny%20contest/img%20def.png" width="60%" />
+</br>
+[`r fontawesome::fa("twitter")` @BAGobAbierto](https://twitter.com/BAGobAbierto)
+]
+]
+
+.panel[.panel-name[Asesora de Innovación Pública]
+<img src="https://pbs.twimg.com/profile_banners/1030104137764098048/1561128435/1500x500" width="60%" />
+
+[`r fontawesome::fa("twitter")` @AAIPargentina](https://twitter.com/AAIPargentina)
+]
+
+.panel[.panel-name[Data Scientist]
+
+<img src="https://ichi.pro/assets/images/max/724/1*km81hu0_UaMm1aTz3VHJog.png" width="25%" />
+
+]
+
+
+]
+---
+class: middle, center
+
+## GICP OBSERVATORIO DE REDES ([@O_de_R](www.twitter.com/O_de_R))
+</br>
+
+.center[<img src="https://github.com/guadag12/talk-cienciassoccomputacionales/raw/main/img/img-juani.png" width="15%"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/guadag12/talk-cienciassoccomputacionales/raw/main/img/img-guada.png" width="15%">]
+#### [@juanibelbis](www.twitter.com/juanibelbis) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       [@guadag12](www.twitter.com/guadag12) 
+.center[<img src="https://github.com/guadag12/talk-cienciassoccomputacionales/raw/main/img/img-agos.png" width="15%"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/guadag12/talk-cienciassoccomputacionales/raw/main/img/img-maca.png" width="15%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/guadag12/talk-cienciassoccomputacionales/raw/main/img/img-angie.png" width="15%">
+]
+#### [@AgosSanguinetti](https://twitter.com/AgosSanguinetti) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [@macarenazappe](https://twitter.com/macarenazappe) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [@angielafuente](https://twitter.com/angielafuente) 
+
+---
+class: middle, center
+
+### Proyectos del @OdeR
+
+.panelset[
+
+.panel[.panel-name[Capacitaciones]
+<img src="https://github.com/guadag12/talk-cienciassoccomputacionales/raw/main/img/capacitacion.jpg" width="60%" />
+]
+
+.panel[.panel-name[App]
+<img src="https://github.com/Observatorio-de-Redes/politicosentwitter/raw/main/ShinyApp/www/shiny%20contest/img%20def.png" width="60%" />
+
+##### [www.politicosentwitter.com](www.politicosentwitter.com)
+]
+
+.panel[.panel-name[R Package]
+
+<img src="https://github.com/guadag12/politicxsentwitteR/raw/main/man/figures/logo.png" width="25%" />
+
+
+#### [Primer paquete en R!](https://github.com/guadag12/politicxsentwitteR)
+]
+
+.panel[.panel-name[Blog]
+
+<img src="https://miro.medium.com/max/624/1*j2ILXRAa92mVM2mA6ao4Xg.png" width="80%" />
+
+#### [Blog](https://oderedes.medium.com/)
+]
+
+.panel[.panel-name[Cuyuntura política]
+
+<img src="https://pbs.twimg.com/media/Dj2H6n3WsAEYTra?format=jpg&name=large" width="20%" />
+
+#### [Nota](https://twitter.com/O_de_R/status/1026126143936778246)
+]
+
+
+]
+
+---
+class: middle, center
+
+## Web 🇦🇷
+
+<img src="https://github.com/Observatorio-de-Redes/politicosentwitter/raw/main/ShinyApp/www/shiny%20contest/img%20def.png" width="60%" />
+
+
+##### [www.politicosentwitter.com](www.politicosentwitter.com)
+
+---
+class: middle, center
+
+## PoliticxsentwitteR 🐦📦
+### R package
+
+<img src="https://github.com/guadag12/politicxsentwitteR/raw/main/man/figures/logo.png" width="25%" />
+
+
+#### [Repositorio](https://github.com/guadag12/politicxsentwitteR)
+#### [Web Español](https://guadag12.github.io/politicxsentwitteR/index.html)
+
+
+---
+## ¿POR DÓNDE PUEDO ARRANCAR?
+
+* Recursos online:
+  * [R4DS](https://es.r4ds.hadley.nz/)
+  * [Cursera](https://www.coursera.org/)
+  * [edx](https://www.edx.org/) </br>
+</br>
+
+* Laboratorio de Políticas Públicas en UBA:
+  * [Web](http://labpoliticasuba.com/)
+  * [Clases Online](https://github.com/labpoliticasuba)
+  * [Twitter](https://twitter.com/LABPoliticasUBA) </br>
+</br>  
+
+* Metodologia de análisis en Opinión Pública ([programa](http://cienciapolitica.sociales.uba.ar/wp-content/uploads/sites/6/2019/07/prog_met4op_Tomas_A_Olego.pdf)) </br>
+</br>
+
+* Cursos de la Dirección de Cultura en R </br>
+</br>
+
+* Laboratorio de Datos (Exactas UBA):
+  * [materiales y clases](http://materias.df.uba.ar/lda2021c1/171-2/)
+</br>
+
+
+* Comunidad: 
+  *  [Rladies](https://twitter.com/RLadiesBA) </br>
+  *  [R en Buenos Aires](https://twitter.com/renbaires) </br>
+
+
+
+---
+
+class: inverse, middle, center
+
+# GRACIAS!🥰 
+</br>
+
+## ESTEMOS EN CONTACTO! 🙌 👇
+
+[`r fontawesome::fa("twitter")` @guadag12](https://twitter.com/guadag12)&nbsp;&nbsp;&nbsp;&nbsp; [`r fontawesome::fa("github")` @guadag12](http://github.com/guadag12) &nbsp;&nbsp;&nbsp;&nbsp; [`r fontawesome::fa("paper-plane")` guadagonz12@gmail.com](guadagonz12@gmail.com)&nbsp;&nbsp;&nbsp;&nbsp;
